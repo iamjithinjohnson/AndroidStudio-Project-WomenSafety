@@ -9,7 +9,7 @@ An android app which can INSTANTLY alert the Guardians( along with user location
 - Wamp Server
 - Internet Connection
 - Java
-* [PHP]
+- [PHP]
 - MYSQL
 
 ### DataBase
