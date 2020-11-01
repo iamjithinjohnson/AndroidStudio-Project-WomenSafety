@@ -2,7 +2,9 @@
 
 <img src = "https://github.com/iamjithinjohnson/AndroidStudio-Project-Women-Safety/blob/master/defence3.jpg" width=300 height=300>
 
-An android app which can INSTANTLY alert the Guardians( along with user location ) whenever the user is in an emergency situation. 
+An android app which can INSTANTLY alert the Guardians( along with user location ) whenever the user is in an emergency situation.
+
+Project Video https://www.youtube.com/watch?v=vPCtDNXqf1E
 
 ### Software Requirement
 - Android Studio
