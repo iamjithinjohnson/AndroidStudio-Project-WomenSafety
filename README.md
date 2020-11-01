@@ -9,7 +9,7 @@ An android app which can INSTANTLY alert the Guardians( along with user location
 - Wamp Server
 - Internet Connection
 - Java
-- PHP
+* [PHP]
 - MYSQL
 
 License
@@ -17,3 +17,5 @@ License
 
 
 **Free Software, Hell Yeah!**
+
+[PHP]: <https://github.com/iamjithinjohnson/AndroidStudio-Project-WomenSafety/tree/master/php>
