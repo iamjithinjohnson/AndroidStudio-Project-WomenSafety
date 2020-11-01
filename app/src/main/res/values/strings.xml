@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">WomenSafety</string>
+    <array name="type">
+        <item>call</item>
+        <item>message</item>
+    </array>
+
+</resources>
+

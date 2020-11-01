@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.jithin.womensafety.Map">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#ffff"
+        android:src="@drawable/d3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:gravity="center"
+         android:layout_below="@+id/img"
+         android:layout_marginBottom="40dp">
+
+
+
+             <LinearLayout
+                 android:id="@+id/hospital"
+                 android:layout_width="match_parent"
+                 android:layout_height="90dp"
+                 android:clickable="true"
+                 android:gravity="center"
+                 android:foreground="?android:attr/selectableItemBackground"
+                 android:orientation="horizontal">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginLeft="20dp"
+                     android:src="@drawable/ic_local_hospital_black_24dp"
+                     />
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical">
+
+                     <TextView
+                         android:id="@+id/textview_line1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginStart="20dp"
+                         android:text="Hospital"
+                         android:textColor="@android:color/black"
+                         android:textSize="16sp" />
+
+                     <TextView
+                         android:id="@+id/textview_line_2"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginStart="20dp"
+                         android:text="Locate hospitals in your place"
+                         android:textSize="14sp" />
+
+
+                 </LinearLayout>
+
+
+
+             </LinearLayout>
+
+
+
+
+
+
+             <LinearLayout
+                 android:clickable="true"
+                 android:foreground="?android:attr/selectableItemBackground"
+                 android:id="@+id/police"
+                 android:gravity="center"
+                 android:layout_width="match_parent"
+                 android:layout_height="90dp"
+                 android:orientation="horizontal">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginLeft="20dp"
+                     android:src="@drawable/ic_local_hospital_black_24dp"
+                     />
+                 <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Police Station"
+                     android:layout_marginLeft="20dp"
+                     android:layout_marginStart="20dp"
+                     android:textColor="@android:color/black"
+                     android:textSize="16sp"
+                     />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:layout_marginStart="20dp"
+                     android:text="Locate police station in your place"
+                     android:textSize="14sp" />
+
+
+
+             </LinearLayout>
+             </LinearLayout>
+
+
+
+
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="90dp"
+                 android:gravity="center"
+                 android:id="@+id/bus"
+                 android:clickable="true"
+                 android:foreground="?android:attr/selectableItemBackground"
+                 android:orientation="horizontal">
+
+             <ImageView
+                 android:layout_width="25dp"
+                 android:layout_height="25dp"
+                 android:layout_marginLeft="20dp"
+                 android:src="@drawable/ic_directions_bus_black_24dp"
+                 />
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical">
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginStart="20dp"
+                         android:text="Bus Stop"
+                         android:textColor="@android:color/black"
+                         android:textSize="16sp" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginStart="20dp"
+                         android:text="Locate Bus Stop in your place"
+                         android:textSize="14sp" />
+
+
+                 </LinearLayout>
+
+
+             </LinearLayout>
+
+
+
+
+
+
+     </LinearLayout>
+
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/icon"
+            android:text="get location"
+            android:textColor="@color/background2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>
