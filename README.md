@@ -1,6 +1,8 @@
 # WomenSafety
 
-<img src = "https://github.com/iamjithinjohnson/AndroidStudio-Project-Women-Safety/blob/master/defence3.jpg" width=300 height=300>
+<img src = "https://github.com/iamjithinjohnson/AndroidStudio-Project-Women-Safety/blob/master/defence3.jpg" width=300 height=300> <img src = "https://github.com/iamjithinjohnson/AndroidStudio-Project-WomenSafety/blob/master/preview.png" width=170 height=300>
+
+
 
 An android app which can INSTANTLY alert the Guardians( along with user location ) whenever the user is in an emergency situation.
 
